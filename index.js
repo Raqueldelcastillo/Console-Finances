@@ -1,7 +1,6 @@
 // 1. Create a new GitHub repo called `Console-Finances`. Then, clone it to your computer. DONE
 
 // 2. Copy the starter files in your local git repository. Done
-
 var finances = [
   ["Jan-2010", 867884],
   ["Feb-2010", 984655],
@@ -94,7 +93,7 @@ var finances = [
 // * The total number of months included in the dataset.
 for (var i = 0; i < finances.length; i++) {
   var months = finances[i][0];
-  console.log("The months are " + months);
+  console.log("The months are " + finances.length);
 }
 
 for (var i = 0; i < finances.length; i++) {
@@ -104,22 +103,21 @@ for (var i = 0; i < finances.length; i++) {
 
 //Total months creating an array that goes through the loop
 var totalMOnths = 0;
-for (var i = 0; 1 < finances.length; i++) {
+for (var i = 0; i < finances.length; i++) {
   totalMOnths = totalMOnths + finances[i][0];
   console.log("total monts" + finances[i][0]);
 }
 
 //total money
 var totalMoney = 0;
-for (var i = 0; 1 < finances.length; i++) {
-  totalMOnths = totalMOnths + finances[i][1];
-  console.log("total monts" + finances[i][1]);
+for (var i = 0; i < finances.length; i++) {
+  totalMoney = totalMoney + finances[i][1];
 }
-
+console.log("total money" + " " + totalMoney);
 //Average Change
 
-var averagemoney = totalMoney / finances.length[0];
-console.log("The average change is" + averagemoney);
+var averagemoney = totalMoney / finances.length;
+console.log("The average change is" + " " + averagemoney);
 // You have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
 
 // * The net total amount of Profit/Losses over the entire period.
