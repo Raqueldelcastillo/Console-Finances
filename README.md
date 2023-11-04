@@ -1,5 +1,8 @@
 # Unit 4 Challenge: Console Finances
 
+After a class with a tutor I have more understanding of the process 
+We went through the questions I have and he helped me out with the challenge.
+
 ## Overview
 
 In this challenge, you'll be using the concepts you've learned to complete the required activity. This activity presents a real-world situation in which your newfound JavaScript skills will come in handy. You are tasked with creating code for analyzing the financial records of a company. You have been provided with a financial dataset in the `starter/index.js` file.
